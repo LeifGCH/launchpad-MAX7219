@@ -12,7 +12,7 @@ class Game:
   def main(self):
     ...
 ```
-As shown in `main.py` file, each game is a file and the main class is imported from it (i.e. `from game1 import Game1`). After this, the `main()` function from that class is called with **zero** parameters. And that's basically it. `mermaid` flowchart:
+As shown in `main.py` file, each game is a file and the main class is imported from it (i.e. `from game1 import Game1`). After this, the `main()` function from that class is called with **zero** parameters. And that's basically it. `mermaid` flowchart for the code cycle:
 ```mermaid
 flowchart LR
     A(boot):::start --> B[main.py executed  - from game import Game]
@@ -24,6 +24,7 @@ classDef second fill:#2196f3,color:white;
 classDef third fill:#ffa500,color:white;
 classDef last fill:#ffd700,color:white;
 ```
+On the more hardware aspect of it, I am using a joystick with a center x/y value of `32768`, and because of that a deadzone around that of `8000`. You can adjust these to suit your needs, just as you can the `main.py` (and any other files') pins in use. 
 ## What else will *I* do?
 Expect me to improve the already checked ones -
 - [x] Core OS
