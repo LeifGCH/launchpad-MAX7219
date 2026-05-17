@@ -34,6 +34,6 @@ Expect me to improve the already checked ones -
 - [ ] Documentation
 
 ## License
-Copyright 2026 LeifGCH
+Copyright (c) 2026 LeifGCH
 
 Licensed under the [MIT License](https://opensource.org/license/MIT).
