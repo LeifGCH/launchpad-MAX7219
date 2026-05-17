@@ -14,7 +14,7 @@ class Game:
 ```
 As shown in `main.py` file, each game is a file and the main class is imported from it (i.e. `from game1 import Game1`). After this, the `main()` function from that class is called with **zero** parameters. And that's basically it. `mermaid` flowchart:
 ```mermaid
-flowchart TD
+flowchart LR
     A(boot):::start --> B[main.py executed  - from game import Game]
     B:::second --> C{"Game.main()"}
     C:::third --> D[game.py executed]:::last
